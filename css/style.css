@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background: #E2E2E2
+}
+
+.wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: left
+}
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 900px;
+    text-align: center;
+    padding: 18px 0 13px
+}
+
+#principal {
+    height: 583px;
+    position: relative
+}
+
+#principal td#box1 {
+    width: 850px;
+    background: url(img/img2_rvmtu7.png) left no-repeat;
+    background-size: auto 400px
+}
+
+#principal td#box1 div.content {
+    width: 450px;
+    margin-left: 7px;
+    margin-top: 150px
+}
+
+#principal td#box1 div.content h2 {
+    font-size: 37px;
+    color: #3eab2f;
+    text-shadow: 1px 1px 2px white;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    line-height: 1.2em
+}
+
+#principal td#box1 div.content h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFF;
+    line-height: 1.5em;
+    margin-bottom: 30px
+}
+
+#principal td#box1 div.content h3 .CallToAction {
+    text-shadow: 1px 1px 2px blue;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    background-color: #3773E3;
+    border-radius: 15px;
+    padding: 2px 5px
+}
+
+.footer,
+.footer a {
+    text-align: center;
+    color: black;
+    font-size: 11px;
+    text-decoration: none;
+    margin: 0 0 30px 0
+}
+.call_to_action{
+display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #350aab;
+    border-radius: 8px;
+    background: #36e0d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#36e0d7), to(#1d36b3));
+    background: -moz-linear-gradient(top, #36e0d7, #1d36b3);
+    background: linear-gradient(to bottom, #36e0d7, #1d36b3);
+    -webkit-box-shadow: #291212 0px 6px 11px 0px;
+    -moz-box-shadow: #291212 0px 6px 11px 0px;
+    box-shadow: #291212 0px 6px 11px 0px;
+    text-shadow: #1f0202 0px 0px 3px;
+    font: normal normal bold 35px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.call_to_action:hover,
+.call_to_action:focus {
+    border: 1px solid #8519ff;
+    background: #41ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#41ffff), to(#2341d7));
+    background: -moz-linear-gradient(top, #41ffff, #2341d7);
+    background: linear-gradient(to bottom, #41ffff, #2341d7);
+    color: #ffffff;
+    text-decoration: none;
+}
+.call_to_action:active {
+    background: #208681;
+    background: -webkit-gradient(linear, left top, left bottom, from(#208681), to(#1d36b3));
+    background: -moz-linear-gradient(top, #208681, #1d36b3);
+    background: linear-gradient(to bottom, #208681, #1d36b3);
